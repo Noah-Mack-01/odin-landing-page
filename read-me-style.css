@@ -1,0 +1,9 @@
+.display-image {
+    border-radius: 1rem;
+}
+
+.display-container {
+    display: flex;
+    justify-content: center;
+}
+
