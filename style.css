@@ -1,9 +1,145 @@
-.display-image {
+body {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    font-family: "Roboto";
+    margin: 0;
+    font-size: 16px;
+    align-items: center;
+}
+
+#hero { padding-top: 50px; padding-bottom: 50px;}
+
+#hero h1 {
+    font-size: 32px;
+    font-weight:bolder;
+}
+
+#hero p, header nav {
+    color: #E5E7EB;
+}
+
+header h1 {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+header nav a {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+header nav {
+    display: flex;
+    align-items: center;
+}
+
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    padding: 15px 20%;
+}
+
+#hero, footer, header {
+    background-color: #1f2937;
+    color: #f9faf8;
+}
+
+#img-alt {
+    width: 900px;
+    height: 200px;
+    background-color: gray;
+    margin-left: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#images {
+    color: #1f2937;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#image-line {
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.image-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    padding: 5% 5%;
+}
+
+.image-box p {
+    padding-top: 5px;
+    text-align: center;
+}
+
+#images h1 {
+    font-size: 36px;
+    font-weight: bolder;
+}
+
+#images img {
+    width: 150px;
+    height: 150px;
+    border-style: solid;
+    border-color: #3882f6;
     border-radius: 1rem;
 }
 
-.display-container {
-    display: flex;
-    justify-content: center;
+#quote {
+    background-color: #E5E7EB;
+    font-style: italic;
+    font-size: 24px;
+    color: #1f2937;
+    flex-direction: column;
+    padding-top: 100px;
+    padding-bottom: 80px;
 }
 
+#quote-source {
+    display: flex;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    justify-content: end;
+}
+
+#c-t-a-box {
+    background-color: #3882f6;
+    color: #f9faf8;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    border-radius: .45rem;
+}
+
+#call-to-action {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+}
+
+h1, p {
+    margin: 0%;
+}

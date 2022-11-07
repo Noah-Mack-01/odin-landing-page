@@ -3,54 +3,74 @@
     <head>
         <meta charset="utf-8" />
         <title>Odin Landing Page</title>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
         <link rel="stylesheet" href="style.css"/>
     </head>
     <body>
-        <header>
-            <div id="header-top">
-                Header Logo
-                <nav>
-                    <a>Header Link 1</a>
-                    <a>Header Link 2</a>
-                    <a>Header Link 3</a>
-                </nav>
-            </div>
-            <div id="header-bottom">
-                <div><h1>This website is awesome</h1>
-                    <p>this website has some subtext that goes 
-                       here under the main title. It's a smaller font 
-                       and the color is lower contrast.
-                    </p><a>Sign up</a></div>
-                <img/>
-            </div>
+
+        <header class="container">
+            <h1>Header Logo</h1>
+            <nav><a>header link one</a><a>header link two</a><a>header link three</a></nav>
         </header>
-        <div id="mid-section-images">
-            <h1> Some random information.</h1>
-            <div class="image-container-and-subtitle">
-                <img/><p>this is some subtext under and illustration or image</p>
+
+
+        <div class="container" id="hero">
+            <div id="hero-text">
+            <h1>This website is awesome</h1>
+            <p>This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast.</p>
             </div>
-            <div class="image-container-and-subtitle">
-                <img/><p>this is some subtext under and illustration or image</p>
+            <div id="img-alt">
+                <img alt="this is a placeholder for an image"/>
             </div>
-            <div class="image-container-and-subtitle">
-                <img/><p>this is some subtext under and illustration or image</p>
-            </div>
-            <div class="image-container-and-subtitle">
-                <img/><p>this is some subtext under and illustration or image</p>
+            
+        </div>
+
+
+        <div class="container" id="images">
+            <h1>Some random information.</h1>
+            <div id="image-line">
+                <div class="image-box">
+                    <img/>
+                    <p>this is some subtext under an illustration or image</p>
+                </div>
+                <div class="image-box">
+                    <img/>
+                    <p>this is some subtext under an illustration or image</p>
+                </div>
+                <div class="image-box">
+                    <img/>
+                    <p>this is some subtext under an illustration or image</p>
+                </div>
+                <div class="image-box">
+                    <img/>
+                    <p>this is some subtext under an illustration or image</p>
+                </div>
             </div>
         </div>
-        <quote id="Inspiring Quote">
-            This is an inspiing quote, or a testimonial from 
-            a customer. Maybe it's just filling up space, 
-            or maybe people wil lactually read it. 
-            Who knows? All I know is that it looks nice.
-        </quote>
-        <footer>
-            <div id="footer-box">
-                <div id="footer-box-content"><h1>Call to action! It's time!</h1>
-                <p>Sign up for our product by checking that button right over there!</p></div>
-                <a>Sign Up</a>
+        
+        
+        <div class="container" id="quote">
+            <p>This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it. Who knows? All I know is that it looks nice.</p>
+            <p id="quote-source">-Thor, God of Thunder</p>
+        </div>
+        
+        
+        <div class="container" id="call-to-action">
+            <div id="c-t-a-box">
+                <div>
+                    <h1>
+                        Call to action! It's time!
+                    </h1>
+                    <p>
+                        Sign up for our product by clicking that button right over there!
+                    </p>
+                </div>
             </div>
+        </div>
+        
+        
+        <footer class="container">
+            Copyright &copy; The Odin Project 2021
         </footer>
 
 
